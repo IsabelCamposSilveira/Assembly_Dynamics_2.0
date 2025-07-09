@@ -1,0 +1,31 @@
+﻿{
+  "suppressINotifyPattern": true,
+  "suppressGeneratedCodeAttribute": true,
+  "language": "CS",
+  "namespace": "project_plugins.earlybound",
+  "serviceContextName": "CrmServiceContext",
+  "generateActions": false,
+  "generateGlobalOptionSets": false,
+  "emitFieldsClasses": true,
+  "entityTypesFolder": "entities",
+  "messagesTypesFolder": "messages",
+  "optionSetsTypesFolder": "optionSets",
+  "entityNamesFilter": [
+    "businessunit",
+    "entitydataprovider",
+    "entitydatasource",
+    "languagelocale",
+    "organization",
+    "role",
+    "systemuser",
+    "systemuserroles",
+    "team",
+    "teammembership",
+    "teamroles",
+    "usersettings",
+    "webresource"
+  ],
+  "messageNamesFilter": [
+    "SendAppNotification"
+  ]
+}
